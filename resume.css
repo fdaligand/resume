@@ -1,0 +1,44 @@
+
+#photo-header{
+  margin-top: 0px;
+  background: #F1F4F6;
+}
+#photo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #F1F4F6;
+  display: inline-block;
+  margin-top: 6px;
+}
+#photo img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.title-header {
+	background: #E6ECF0;
+	margin-top: -53px;
+	height: 50px;
+}
+.no-right-padding{
+	padding-right: 0px;
+}
+.no-left-padding {
+	padding-left: 0px;
+}
+.experience {
+
+	background: #E6ECF0;
+}
+.aboutme {
+	background: #E6ECF0;
+}
+.formation {
+	background: #E6ECF0;
+}
+.job {
+	background: #E6ECF0;
+}

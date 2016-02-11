@@ -8,8 +8,8 @@
   background: #F1F4F6;
 }
 #photo{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;/* what to fo if content element exceeds the size of the element box */
   padding: 5px;
@@ -21,13 +21,13 @@
   z-index: 1;
 }
 #photo img{
-  width: 90px;
-  height: 90px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
 }
 .title-header {
 	background: #E6ECF0;
-  margin-top:-53px;
+  margin-top:-83px;
   margin-right: 0px;
   margin-left: 0px;
 	
@@ -54,4 +54,10 @@
 	background: #E6ECF0;
   padding-top: 5px;
   padding-bottom: 10px;
+}
+.icon {
+  line-height:2em;
+}
+.icon > span {
+  padding: 1em;
 }

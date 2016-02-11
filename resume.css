@@ -1,4 +1,8 @@
 
+.container {
+
+  background: #F1F4F6;
+}
 #photo-header{
   margin-top: 0px;
   background: #F1F4F6;
@@ -35,10 +39,14 @@
 }
 .aboutme {
 	background: #E6ECF0;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .formation {
 	background: #E6ECF0;
 }
 .job {
 	background: #E6ECF0;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }

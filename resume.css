@@ -11,11 +11,14 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: hidden;/* what to fo if content element exceeds the size of the element box */
   padding: 5px;
   background: #F1F4F6;
   display: inline-block;
   margin-top: 6px;
+  /* set photo to first plan*/
+  position: relative; /* mandatory if you would use z-index*/
+  z-index: 1;
 }
 #photo img{
   width: 90px;
@@ -24,8 +27,10 @@
 }
 .title-header {
 	background: #E6ECF0;
-	margin-top: -53px;
-	height: 50px;
+  margin-top:-53px;
+  margin-right: 0px;
+  margin-left: 0px;
+	
 }
 .no-right-padding{
 	padding-right: 0px;
@@ -47,6 +52,6 @@
 }
 .job {
 	background: #E6ECF0;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 10px;
 }

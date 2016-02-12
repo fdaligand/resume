@@ -61,3 +61,7 @@
 .icon > span {
   padding: 1em;
 }
+.addr {
+  display: inline-block;
+  width: 90%;
+}

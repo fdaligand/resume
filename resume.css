@@ -39,21 +39,28 @@
 	padding-left: 0px;
 }
 .experience {
-
 	background: #E6ECF0;
 }
-.aboutme {
+.job-description {
+  font-size: 12px;
+}
+.aboutme, .experience {
 	background: #E6ECF0;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
+.fromto{
+  /*background: linear-gradient(to right,#E6ECF0,white);*/
+  font-weight: bold;
+  color: black;
+}
 .formation {
 	background: #E6ECF0;
    margin-right: 0px;
 }
-.formation span {
+.formation span, .experience span, .aboutme span {
   padding:10px;
 }
 .job {
@@ -116,3 +123,4 @@
   margin-left: 5%;
   width: 50%;
 }
+

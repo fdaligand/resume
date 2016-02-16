@@ -38,29 +38,6 @@ var skill = d3.select(balise)
 
   }
 
-
-    var gradient = d3.selectAll("svg")
-                      .append("defs")
-                      .append("linearGradient")
-                      .attr({
-                        "id":"gradient",
-                        "x1":"0%",
-                        "y1":"0%",
-                        "x2":"100%",
-                        "y2":"100%",
-                        "spreadMethod":"pad",
-
-                      });
-    gradient.append("stop")
-              .attr({
-                "offset":"0%",
-                "stop-color":"#0c0",
-              });
-    gradient.append("stop")
-              .attr({
-                "offset":"100%",
-                "stop-color":"#c00",
-              });
     
     var arc = d3.svg.arc()
               .innerRadius(46)

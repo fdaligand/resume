@@ -1,11 +1,11 @@
 
 .container {
 
-  background: #F1F4F6;
+  background: #c9c9c9;
 }
 #photo-header{
   margin-top: 0px;
-  background: #F1F4F6;
+  background: #c9c9c9;
 }
 #photo{
   width: 150px;
@@ -13,7 +13,7 @@
   border-radius: 50%;
   overflow: hidden;/* what to fo if content element exceeds the size of the element box */
   padding: 5px;
-  background: #F1F4F6;
+  background: #c9c9c9;
   display: inline-block;
   margin-top: 6px;
   /* set photo to first plan*/
@@ -26,7 +26,7 @@
   border-radius: 50%;
 }
 .title-header {
-	background: #E6ECF0;
+	background: #e3e3e3;
   margin-top:-83px;
   margin-right: 0px;
   margin-left: 0px;
@@ -39,13 +39,21 @@
 	padding-left: 0px;
 }
 .experience {
-	background: #E6ECF0;
+	background: #e3e3e3;
 }
 .job-description {
   font-size: 12px;
 }
-.aboutme, .experience, .skill {
-	background: #E6ECF0;
+.aboutme ,.experience{
+     border-top: solid 5px #c9c9c9;
+     border-right: solid 5px #c9c9c9;
+}
+.education ,.language ,.tools {
+  border-top: solid 5px #c9c9c9;
+
+}
+.aboutme, .experience {
+	background:#e3e3e3;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -54,17 +62,18 @@
 .fromto{
   /*background: linear-gradient(to right,#E6ECF0,white);*/
   font-weight: bold;
-  color: black;
+  color: #89bdd3;
 }
-.formation {
-	background: #E6ECF0;
+.formation, .skill {
+   background: #e3e3e3;
    margin-right: 0px;
+
 }
-.formation span, .experience span, .aboutme span ,.skill span {
+.formation span, .experience span, .aboutme span ,.language span {
   padding:10px;
 }
 .job {
-	background: #E6ECF0;
+	background: #e3e3e3;
   padding-top: 100px;
   padding-bottom: 10px;
 }
@@ -81,15 +90,16 @@
 }
 .circle-icon {
 
-  border: solid 1px black;
+  /*border: solid 1px #89bdd3;
   border-radius: 50%;
-  padding:5px; 
+  padding:5px;*/
+  color:  #9ad3de;
 }
 
 /* TIME LINE */
 .diplome {
   
-  border-left: 3px solid black;
+  border-left: 4px solid #89bdd3;
   display: inline-block;
   margin-left: 10%;
 
@@ -99,17 +109,18 @@
 }
 .date{
   margin-left: -3em;
+  color:#89bdd3;
 }
 .circle {
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  background: black;
+  width: 12px;
+  height: 12px;
+  background: #89bdd3;
   margin-left: 0px;
 }
 .name {
 
-  background: #F1F4F6;
+  background: #89bdd3;
   text-align: center;
   width: 80%;
 }

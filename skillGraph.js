@@ -39,6 +39,8 @@ var skill = d3.select(balise)
   }
 
     
+  var color = d3.interpolateLab("#008000", "#c83a22");
+
     var arc = d3.svg.arc()
               .innerRadius(46)
               .outerRadius(50)
@@ -48,7 +50,7 @@ var skill = d3.select(balise)
 
         skill.append("path")
             .attr("class","arc")
-            .attr("fill","url(#gradient)")
+            .style("fill","lightblue")
             .attr("d",arc);
 
     var techno = skill

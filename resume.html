@@ -60,7 +60,7 @@
       </div>
 
       <div class="row">
-      	<div class="col-xs-6">
+      	<div class="col-xs-8">
       		<div class="aboutme">
       			<h3><i class="fa fa-user circle-icon"></i><span>About Me</span></h3>
       			<p class="text-justify" >
@@ -156,8 +156,10 @@
               </div>
           </div>
       	</div>
-      	<div class="col-xs-6 no-left-padding">
-        		<div class="row formation">
+      	<div class="col-xs-4 no-left-padding">
+          <div class="row">
+            <div class="col-xs-12 education">
+        		  <div class="row formation">
               <div class="col-xs-12">
                 <h3><i class="fa fa-graduation-cap circle-icon"></i><span>Education<span></h3>
               </div> 
@@ -173,9 +175,8 @@
               <div class="col-xs-3">
                 <div class="school-icon"> <img src="icon/insa.jpg" width="50px" height="50px"> </div>
               </div> 
-            </div>
-
-            <div class="row formation">
+              </div>
+              <div class="row formation">
               <div class="col-xs-8 col-xs-offset-1">
                 <div class="diplome" style="height: 6em;">
                   <div class="date"> 2009 </div>
@@ -188,9 +189,8 @@
               <div class="col-xs-3">
                 <div class="school-icon"> <img src="icon/insa.jpg" width="50px" height="50px"> </div>
               </div>
-            </div>
-
-            <div class="row formation">
+              </div>
+              <div class="row formation">
               <div class="col-xs-8 col-xs-offset-1">
                 <div class="diplome" style="height: 6em;">
                   <div class="date"> 2007 </div>
@@ -203,23 +203,41 @@
               <div class="col-xs-3">
                 <div class="school-icon"> <img src="icon/insa.jpg" width="50px" height="50px"> </div>
               </div> 
+              </div>
             </div>
-
-          <div class="row">
-            <div class="col-xs-12 skill">
-              <h3> <i class="fa fa-cogs circle-icon"></i></i><span>Skills </span></h3>
+          </div>
+          <div class="row skill">
+            <div class="col-xs-12">
+              <div class="row">
+                <div class="col-xs-12 language">
+                  <h4><i class="fa fa-code circle-icon"></i><span>Languages</span></h4></div>
+                <div class="col-xs-4 pythonSkill">
+                </div>
+                <div class="col-xs-4 webSkill">
+                </div>
+                <div class="col-xs-4 ccppSkill">
+                </div>
+                <div class="col-xs-4 sqlSkill">
+                </div>
+                <div class="col-xs-4 javaSkill">
+                </div>
+                
+                <div class="col-xs-12 tools">
+                  <h4><i class="fa fa-wrench circle-icon"></i><span>Tools</span></h4></div>
+                  <div class="col-xs-4 djangoSkill">
+                </div>
+                <div class="col-xs-4 bootsrapSkill">
+                </div>
+                <div class="col-xs-4 jQuerySkill">
+                </div>
+                 <div class="col-xs-4 postgresqlSkill">
+                </div>
+                <div class="col-xs-4 jenkinsSkill">
+                </div>
+                <div class="col-xs-4 linuxSkill">
+                </div>
+              </div>
             </div>
-            <div class="col-xs-3 pythonSkill">
-            </div>
-            <div class="col-xs-3 webSkill">
-            </div>
-            <div class="col-xs-3 sqlSkill">
-            </div>
-             <div class="col-xs-3 ccppSkill">
-            </div>
-            <div class="col-xs-3 javaSkill">
-            </div>
-
           </div>
       	</div>
       </div>
@@ -236,10 +254,17 @@
   <script src="skillGraph.js"></script>
    <script>
       editSkillGraph("icon/python.ico",90,".pythonSkill");
-      editSkillGraph("icon/java.png",40,".javaSkill");
-      editSkillGraph(undefined,80,".webSkill",["HTML","CSS","JAVASCRIP","JQUERY","SVG"]);
+      editSkillGraph("icon/java.png",60,".javaSkill");
+      editSkillGraph(undefined,80,".webSkill",["HTML","CSS","JAVASCRIP","SVG"]);
       editSkillGraph("icon/sql.jpg",60,".sqlSkill");
       editSkillGraph("icon/ccpp.png",75,".ccppSkill");
+      editSkillGraph("icon/django.jpg",90,".djangoSkill");
+      editSkillGraph("icon/jquery.png",60,".jQuerySkill");
+      editSkillGraph("icon/bootstrap.png",80,".bootsrapSkill");
+      editSkillGraph("icon/postgresql.png",70,".postgresqlSkill");
+      editSkillGraph("icon/jenkins.png",95,".jenkinsSkill");
+      editSkillGraph("icon/linux.png",65,".linuxSkill");
+
       
     
     </script>

@@ -1,0 +1,137 @@
+
+.container {
+
+  background: #c9c9c9;
+}
+#photo-header{
+  margin-top: 0px;
+  background: #c9c9c9;
+}
+#photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;/* what to fo if content element exceeds the size of the element box */
+  padding: 5px;
+  background: #c9c9c9;
+  display: inline-block;
+  margin-top: 6px;
+  /* set photo to first plan*/
+  position: relative; /* mandatory if you would use z-index*/
+  z-index: 1;
+}
+#photo img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.title-header {
+	background: #e3e3e3;
+  margin-top:-83px;
+  margin-right: 0px;
+  margin-left: 0px;
+	
+}
+.no-right-padding{
+	padding-right: 0px;
+}
+.no-left-padding {
+	padding-left: 0px;
+}
+.experience {
+	background: #e3e3e3;
+}
+.job-description {
+  font-size: 12px;
+}
+.aboutme ,.experience{
+     border-top: solid 5px #c9c9c9;
+     border-right: solid 5px #c9c9c9;
+}
+.education ,.language ,.tools {
+  border-top: solid 5px #c9c9c9;
+
+}
+.aboutme, .experience {
+	background:#e3e3e3;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fromto{
+  /*background: linear-gradient(to right,#E6ECF0,white);*/
+  font-weight: bold;
+  color: #89bdd3;
+}
+.formation, .skill {
+   background: #e3e3e3;
+   margin-right: 0px;
+
+}
+.formation span, .experience span, .aboutme span ,.language span {
+  padding:10px;
+}
+.job {
+	background: #e3e3e3;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.icon {
+  line-height:2em;
+}
+.icon > span {
+  padding: 1em;
+}
+.addr {
+  display: inline-block;
+  width: 90%;
+  line-height: 1.2em;
+}
+.circle-icon {
+
+  /*border: solid 1px #89bdd3;
+  border-radius: 50%;
+  padding:5px;*/
+  color:  #9ad3de;
+}
+
+/* TIME LINE */
+.diplome {
+  
+  border-left: 4px solid #89bdd3;
+  display: inline-block;
+  margin-left: 10%;
+
+}
+.diplome > div {
+  display: inline-block;
+}
+.date{
+  margin-left: -3em;
+  color:#89bdd3;
+}
+.circle {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background: #89bdd3;
+  margin-left: 0px;
+}
+.name {
+
+  background: #89bdd3;
+  text-align: center;
+  width: 80%;
+}
+.spec {
+
+  margin-left: 5%;
+  width: 80%;
+}
+.address {
+
+  margin-left: 5%;
+  width: 50%;
+}
+

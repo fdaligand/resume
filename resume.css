@@ -44,7 +44,7 @@
 .job-description {
   font-size: 12px;
 }
-.aboutme, .experience {
+.aboutme, .experience, .skill {
 	background: #E6ECF0;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -60,7 +60,7 @@
 	background: #E6ECF0;
    margin-right: 0px;
 }
-.formation span, .experience span, .aboutme span {
+.formation span, .experience span, .aboutme span ,.skill span {
   padding:10px;
 }
 .job {

@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="resume.css">
-
+  <link rel="stylesheet" type="text/css" href="print.css" media="print">
   
 
   </head>
@@ -38,39 +38,60 @@
           <div class="row title-header">
             <div class="col-xs-4 icon">
                 <h4> Florent DALIGAND </h4>
-                <img src="icon/phone.png" width="25px" height="25px"/><span>06.87.20.54.62</span><br>
-                <img src="icon/gmail.ico" width="25px" height="25px"/><span>florent.daligand@gmail.com</span><br>
+                <img src="icon/phone.png" width="20px" height="20px"/><span>06.87.20.54.62</span><br>
+                <img src="icon/gmail.ico" width="20px" height="20px"/><span>florent.daligand@gmail.com</span><br>
                 
             </div>       
-            <div class="col-xs-4">
-              <div class="job text-center">
-                <h2> Software developer </h2>
+            <div class="col-xs-4 col-xs-offset-4 icon links">
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="icon/maps.png" width="20px" height="20px" style="vertical-align:top;"/>
+                </div>
+                <div class="col-xs-10 text-left">270 Chemin du vallon de Bagnols<br>
+                13090 AIX EN PROVENCE</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="icon/linkedin.png" width="20px" height="20px"/>
+                </div>
+                <div class="col-xs-10 text-left">
+                  <em>https://www.linkedin.com/in/florentdaligand</em>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1">
+                  <img src="icon/github.png" width="20px" height="20px"/>
+                </div>
+                <div class="col-xs-10 text-left">
+                  <em>https://github.com/fdaligand</em>
+                </div>
               </div>
             </div>
-            <div class="col-xs-4 icon">
-              <img src="icon/maps.png" width="25px" height="25px" style="vertical-align:top;"/>
-              <div class="addr"> 270 Chemin du vallon de Bagnols<br>
-              13090 AIX EN PROVENCE </div>
-              <img src="icon/linkedin.png" width="25px" height="25px"/><span><em>https://www.linkedin.com/in/florentdaligand</em></span><br>
-              <img src="icon/github.png" width="25px" height="25px"/><span><em>https://github.com/fdaligand</em></span>
-              
-            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 icon text-center">
+              <h2 class="title-job"> Front End Developer</h2>
           </div>
         </div>
       </div>
 
       <div class="row">
-      	<div class="col-xs-8">
+      	<div class="col-xs-7">
       		<div class="aboutme">
-      			<h3><i class="fa fa-user circle-icon"></i><span>About Me</span></h3>
+      			<h3 class="no-margin"><i class="fa fa-user circle-icon"></i><span>About Me</span></h3>
       			<p class="text-justify" >
-      				I'm an <strong>enthusiasm and innovative developer</strong>, more oriented on <strong>open source software</strong>, who love work with new technologies.
-				      My main goal is to <strong>learn new things every days</strong>, and apply these new things to my job.
+
+      				I work on development of innovative tools to <strong>automate</strong> and <strong>optimize daily tasks</strong>, render the right data to the right person and to permit to developer to be <strong>focused on his task instead of its environment</strong>.<br>
+
+              I prefer to use combination of technologies and languages rather than focusing on only one language and technology, <strong>complex is better than complicated</strong>. If it take more time to do the right thing, i will take this time instead of postpone it to tomorrow.<br>
+
+              I like <strong>learn new things</strong>, especially from those who know, and apply these new knowledges to my daily work. My learning choices are <strong>not focused in one domain</strong>, and cover the big data to IOT, passing through organization methods and web technologies.
 
       			</p>
       		</div>
           <div class="experience">
-              <h3><i class="fa fa-industry circle-icon"></i><span>Experience</span></h3>
+              <h3 class="no-margin"><i class="fa fa-industry circle-icon"></i><span>Experience</span></h3>
 
               <div class="row">
                   <div class="col-xs-3">
@@ -81,38 +102,30 @@
                     </div>
                   </div>
                   <div class="col-xs-9">
-                    <h4> Software engineer </h4>
-                    <div class="job-description">
-                      <p> Development of a continuous integration services for a firmware team (developers, validation engineer and managers)<br>
-                        <ul>
-                          <li>
-                            Installation, set-up and maintenance of a Jenkins server and more than 20 nodes ( Python    scripting, Linux shell, Windows batch, ...)
-                          </li>
-                          <li>
-                            Jenkins plug-in development to connect a DB, manage events and compute results
-                          </li>
-                          <li>
-                            Development of a complete database architecture, views, index and stored procedures
-                          </li>
-                          <li>
-                            Specification, development and deployment from scratch of a web site for visualisation and management of the continuous integration
-                          </li>
-                        </ul> 
-                        Development of multiple tools to facilitate continuous integration
-                        <ul>
-                          <li>
-                            Versionning tools :  Use to set a version on binaries, documents and test reports in order to track modification easily
-                          </li>
-                          <li>
-                            DB : Development of a set of tools to facilitate team working on the same DB. Versionning of schemes, easy dump/restore/update command for deployement
-                          </li>
-                        </ul>
-                        Environment:<br>
-                        Python, Java, C, SQL, Django, Postgresql, bootstrap, Javascript, Ajax 
-                    </p>
-                    </div>
+                    <h4> Front-end/Back-end developper</h4>
                   </div>
               </div>
+              <div class="row">
+                <div clas="col-xs-12">
+                    <div class="job-description">
+                      Development and deployment  of continuous integration services for a firmware team
+                        <ul>
+                          <li>On commit build</li>
+                          <li>On commit, daily and weekly regression campaigns</li>
+                          <li>Automatic tagging and versionning of the binaries</li>
+                        </ul>
+                        Development of a framework to render results from continuous integration 
+                        <ul>
+                          <li>Jenkins plug-in to connect outputs to a database, to manage event on results and to inform users.</li>
+                          <li>Development of a complete database architecture, views, index and stored procedures</li>
+                          <li>Specification, development and deployment from scratch of a web site for visualisation and management of the continuous integration</li>
+                        </ul>
+                        Environment:<br>
+                        Python, Java, C, SQL, Django, Postgresql, Bootstrap, HTML, CSS, Javascript, Ajax 
+              </div>
+            </div>
+          </div>
+
               <div class="row">
                   <div class="col-xs-3">
                     <img src="icon/MDR.jpg" class="img-thumbnail"/>
@@ -122,41 +135,32 @@
                     </div>
                   </div>
                   <div class="col-xs-9">
-                    <h4> Industrial Computing engineer </h4>
+                    <h4> Industrial Computing developper and Project manager </h4>
                     <div class="job-description">
-                      <p> Development of a continuous integration services for a firmware team (developers, validation engineer and managers)<br>
-                        <ul>
-                          <li>
-                            Installation, set-up and maintenance of a Jenkins server and more than 20 nodes ( Python    scripting, Linux shell, Windows batch, ...)
-                          </li>
-                          <li>
-                            Jenkins plug-in development to connect a DB, manage events and compute results
-                          </li>
-                          <li>
-                            Development of a complete database architecture, views, index and stored procedures
-                          </li>
-                          <li>
-                            Specification, development and deployment from scratch of a web site for visualisation and management of the continuous integration
-                          </li>
-                        </ul> 
-                        Development of multiple tools to facilitate continuous integration
-                        <ul>
-                          <li>
-                            Versionning tools :  Use to set a version on binaries, documents and test reports in order to track modification easily
-                          </li>
-                          <li>
-                            DB : Development of a set of tools to facilitate team working on the same DB. Versionning of schemes, easy dump/restore/update command for deployement
-                          </li>
-                        </ul>
-                        Environment:<br>
-                        Python, Java, C, SQL, Django, Postgresql, bootstrap, Javascript, Ajax 
-                    </p>
+                      Industrial computing developer 
+                      <ul>
+                        <li>Development of a new system architecture (GEMMA)</li>
+                        <li>Build of a modular and scalable software to fit to the entire product range</li>
+                        <li>Implementation of new communication protocols (Modbus, TCP/IP, GSM)</li>
+                        <li>Design of a new user interface (HMI)</li>
+                        <li>Specification,development and commissioning with the customer</li>
+                      </ul>
+                      Project manager on complex systems (electric, electronic, automatism):
+                      <ul>
+                        <li>Unique interface with the customer after PO</li>
+                        <li>Factory acceptance test</li>
+                        <li>Commissioning</li>
+                        <li>Technical support</li>
+                      </ul>
+                      Environment:<br>
+                      CEI 6113-3 languages, state machine, ModBus, CAN, TCP/IP, international project management (Europe,Asia and Middle East) from 10k€ to +100k€  
+                    
                     </div>
                   </div>
               </div>
           </div>
       	</div>
-      	<div class="col-xs-4 no-left-padding">
+      	<div class="col-xs-5 no-left-padding">
           <div class="row">
             <div class="col-xs-12 education">
         		  <div class="row formation">

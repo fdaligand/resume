@@ -42,8 +42,8 @@ var skill = d3.select(balise)
   var color = d3.interpolateLab("#008000", "#c83a22");
 
     var arc = d3.svg.arc()
-              .innerRadius(46)
-              .outerRadius(50)
+              .innerRadius(30)
+              .outerRadius(40)
               .startAngle(0)
               .endAngle(function(){ return (((knowledge*3.6)*2*Math.PI)/360);});
               

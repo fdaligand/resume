@@ -70,14 +70,14 @@
 .fromto{
   /*background: linear-gradient(to right,#E6ECF0,white);*/
   font-weight: bold;
-  color: #89bdd3;
+  color: #5BC0DE;
 }
 .formation, .skill {
    background: #e3e3e3;
    margin-right: 0px;
 
 }
-.formation span, .experience span, .aboutme span ,.language span {
+.formation span, .experience span, .aboutme span ,.language span ,.tools span {
   padding: 0 0 0 0.5em;
 }
 .job {
@@ -97,16 +97,16 @@
 }
 .circle-icon {
 
-  /*border: solid 1px #89bdd3;
+  /*border: solid 1px #5551FE;
   border-radius: 50%;
   padding:5px;*/
-  color:  #9ad3de;
+  color:  #5BC0DE;
 }
 
 /* TIME LINE */
 .diplome {
   
-  border-left: 4px solid #89bdd3;
+  border-left: 4px solid #5BC0DE;
   display: inline-block;
   margin-left: 10%;
 
@@ -116,18 +116,18 @@
 }
 .date{
   margin-left: -3em;
-  color:#89bdd3;
+  color:#5BC0DE;
 }
 .circle {
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background: #89bdd3;
+  background: #5BC0DE;
   margin-left: -2px;
 }
 .name {
 
-  background: #89bdd3;
+  background-color:  #5BC0DE ;
   text-align: center;
   width: 80%;
 }
@@ -143,4 +143,13 @@
 }
 .school-icon {
   margin-left: -30px;
+}
+.progress {
+  margin-bottom: 5px;
+}
+.exp-line {
+  background-color: #5BC0DE;
+  border-radius: 10%;
+  padding-top: 5px;
+  margin-top: 10px;
 }

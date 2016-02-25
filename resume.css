@@ -49,6 +49,10 @@
 }
 .job-description {
   font-size: 12px;
+  padding: 0 0.5em 0.5em 2em;
+}
+.job-description ul {
+  padding-left: 1.5em;
 }
 .aboutme ,.experience{
      border-top: solid 5px #c9c9c9;
@@ -119,7 +123,7 @@
   width: 12px;
   height: 12px;
   background: #89bdd3;
-  margin-left: 0px;
+  margin-left: -2px;
 }
 .name {
 
@@ -137,4 +141,6 @@
   margin-left: 5%;
   width: 50%;
 }
-
+.school-icon {
+  margin-left: -30px;
+}

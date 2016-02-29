@@ -1,3 +1,6 @@
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
 .container {
   background: #c9c9c9;
 }
@@ -76,8 +79,9 @@
   padding-top: 100px;
   padding-bottom: 10px;
 }
-
-/* TIME LINE */
+/****************************************/
+/*********** TIME LINE ******************/
+/****************************************/
 .diplome {
   
   border-left: 4px solid #5BC0DE;
@@ -118,6 +122,9 @@
 .school-icon {
   margin-left: -30px;
 }
+/****************************************/
+/*********** TIME LINE ******************/
+/****************************************/
 .progress {
   margin-bottom: 5px;
 }
@@ -126,4 +133,7 @@
   border-radius: 10%;
   padding-top: 5px;
   margin-top: 10px;
+}
+.skill {
+  background-color: #e3e3e3;
 }

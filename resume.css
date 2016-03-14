@@ -32,7 +32,7 @@ body {-webkit-print-color-adjust: exact;}
   margin:-100px 0px 0 0px;
 }
 .title-job {
-  padding: 0 0 5px 0;
+  padding: 10px 0 10px 0;
   margin: 0;
 }
 .links {
@@ -66,7 +66,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .experience {
 	background:#e3e3e3;
-  padding: 1em 1em 1em 1em;
+  padding: 1em 1em 0 1em;
   font-size:12px;
 }
 .formation span, .experience span, .aboutme span ,.language span ,.tools span {
@@ -90,6 +90,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .power {
   background-color: #c9c9c9;
+  padding-bottom: 25px;
 }
 /****************************************/
 /*********** TIME LINE ******************/
@@ -138,7 +139,8 @@ body {-webkit-print-color-adjust: exact;}
 /*********** TIME LINE ******************/
 /****************************************/
 .progress {
-  margin-bottom: 5px;
+  margin: 0 0 5px -5px;
+  padding: 0;
 }
 .exp-line {
   background-color: #5BC0DE;
@@ -154,4 +156,23 @@ body {-webkit-print-color-adjust: exact;}
 }
 .hide {
   display: none;
+}
+.hobby {
+  background-color: #5BC0DE;
+  margin : 0 5px 5px 5px;
+  padding : 0 5px 2px 5px;
+}
+.hobby > i {
+  color:white;
+}
+.skill-scale {
+  border-top: 2px solid #5BC0DE;
+  font-size: 9px;
+  border-left: 2px solid #5BC0DE;
+  padding: 5px 5px 0 2px;
+  height: 5px;
+  margin-bottom: 20px;
+}
+.skill-scale+.right {
+  border-right: 2px solid #5BC0DE;
 }

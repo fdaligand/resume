@@ -3,6 +3,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .container {
   background: #c9c9c9;
+  height: 1060px;
 }
 #photo-header{
   margin-top: 0px;
@@ -28,7 +29,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .title-header {
 	background: #e3e3e3;
-  margin:-100px -25px 0 -25px;
+  margin:-100px 0px 0 0px;
 }
 .title-job {
   padding: 0 0 5px 0;
@@ -36,7 +37,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .links {
   font-size: 12px;
-  padding: 0;
+  padding: 0 0 0 0.5em;
   line-height: 2em;
 }
 .home {
@@ -61,6 +62,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .language ,.tools {
   border-top: solid 5px #c9c9c9;
+  padding-top: 5px; 
 }
 .experience {
 	background:#e3e3e3;
@@ -85,7 +87,9 @@ body {-webkit-print-color-adjust: exact;}
 .column {
   border-left: 5px solid #c9c9c9;
   border-right: 5px solid #c9c9c9;
-  border-bottom: 5px solid #c9c9c9;
+}
+.power {
+  background-color: #c9c9c9;
 }
 /****************************************/
 /*********** TIME LINE ******************/
@@ -147,4 +151,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .tools-item {
   margin-bottom: 0.5em;
+}
+.hide {
+  display: none;
 }

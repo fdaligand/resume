@@ -60,21 +60,27 @@ body {-webkit-print-color-adjust: exact;}
 .education {
   border-top: solid 5px #c9c9c9;
 }
-.language ,.tools {
+.skill {
   border-top: solid 5px #c9c9c9;
-  padding-top: 5px; 
+  padding: 5px 0 5px 0; 
+}
+.skill-domain {
+  border-top-width: 2px;
+  border-top-style: dashed;
+  border-top-color: #5BC0DE;
+  padding-top: 3px;
 }
 .experience {
 	background:#e3e3e3;
   padding: 1em 1em 0 1em;
   font-size:12px;
 }
-.formation span, .experience span, .aboutme span ,.language span ,.tools span {
+.formation span, .experience span, .aboutme span ,.skill span {
   padding: 0 0 0 0.5em;
 }
 .job-description {
   font-size: 12px;
-  padding: 0 0.5em 0.5em 2em;
+  padding: 0 ;
 }
 .job-description ul {
   padding-left: 1.5em;

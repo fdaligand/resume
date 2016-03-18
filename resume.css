@@ -29,10 +29,11 @@ body {-webkit-print-color-adjust: exact;}
 }
 .title-header {
 	background: #e3e3e3;
-  margin:-100px 0px 0 0px;
+  margin:-111px -10px 0 -10px;
+  padding: 5px 0 0 0;
 }
 .title-job {
-  padding: 10px 0 10px 0;
+  padding: 11px 0 11px 0;
   margin: 0;
 }
 .links {
@@ -52,6 +53,10 @@ body {-webkit-print-color-adjust: exact;}
 .no-margin {
   margin: 0 0 0.5em 0;
 }
+.resume-content {
+  background-color: #c9c9c9;
+  padding-bottom: 20px;
+}
 .aboutme ,.education{
   background:#e3e3e3;
   padding: 0.2em 1em 0 1em;
@@ -63,15 +68,27 @@ body {-webkit-print-color-adjust: exact;}
 .skill {
   border-top: solid 5px #c9c9c9;
   padding: 5px 0 5px 0; 
+  background-color: #e3e3e3;
 }
 .skill-domain {
   padding-top: 10px;
+  
 }
 .skill-tools {
-  border-left-width: 2px;
+  /*border-left-width: 3px;
   border-left-style: dashed;
-  border-left-color: #c9c9c9;
+  border-left-color: #c9c9c9;*/
+
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #c9c9c9;
+
 }
+.tools-item {
+  padding : 2px 0 2px 0;
+  font-size: 10px;
+}
+
 .experience {
 	background:#e3e3e3;
   padding: 1em 1em 0 1em;
@@ -82,10 +99,7 @@ body {-webkit-print-color-adjust: exact;}
 }
 .job-description {
   font-size: 12px;
-  padding: 0 ;
-}
-.job-description ul {
-  padding-left: 1.5em;
+  padding: 0 0 10px 0;
 }
 .job {
 	background: #e3e3e3;
@@ -146,24 +160,18 @@ body {-webkit-print-color-adjust: exact;}
 /****************************************/
 /*********** TIME LINE ******************/
 /****************************************/
-.progress {
-  margin: 0 0 5px -5px;
-  padding: 0;
-}
 .exp-line {
   background-color: #5BC0DE;
   border-radius: 10%;
   padding-top: 5px;
   margin-top: 10px;
 }
-.skill {
-  background-color: #e3e3e3;
-}
-.tools-item {
-  margin-bottom: 0.5em;
-}
 .hide {
   display: none;
+}
+.hobbies {
+  background-color: #e3e3e3;
+  border-top: solid 5px #c9c9c9;
 }
 .hobby {
   background-color: #5BC0DE;
@@ -171,16 +179,9 @@ body {-webkit-print-color-adjust: exact;}
   padding : 0 5px 2px 5px;
 }
 .hobby > i {
-  color:white;
+  color:#e3e3e3;
 }
-.skill-scale {
-  border-top: 2px solid #5BC0DE;
-  font-size: 9px;
-  border-left: 2px solid #5BC0DE;
-  padding: 5px 5px 0 2px;
-  height: 5px;
-  margin-bottom: 20px;
-}
-.skill-scale+.right {
-  border-right: 2px solid #5BC0DE;
+
+.exp-header {
+  padding: 0 0 5px 0;
 }

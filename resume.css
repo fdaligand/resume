@@ -157,6 +157,11 @@ body {-webkit-print-color-adjust: exact;}
 .school-icon {
   margin-left: -30px;
 }
+.text-emphase {
+  color: #5BC0DE;
+  font-weight: bold;
+  font-size: 12px;
+}
 /****************************************/
 /*********** TIME LINE ******************/
 /****************************************/

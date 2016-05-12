@@ -161,6 +161,7 @@ body {-webkit-print-color-adjust: exact;}
   color: #5BC0DE;
   font-weight: bold;
   font-size: 12px;
+  padding-left: 0 !important;
 }
 /****************************************/
 /*********** TIME LINE ******************/
